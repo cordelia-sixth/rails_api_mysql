@@ -9,6 +9,7 @@ COPY Gemfile.lock .
 
 RUN apk update && \
     apk add --no-cache \
+    shared-mime-info \
     linux-headers \
     libxml2-dev \
     curl-dev \
